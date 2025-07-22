@@ -1,0 +1,41 @@
+# === Python & Environment ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+asr_env/
+*.egg-info/
+
+# === Jupyter Notebooks (if any) ===
+.ipynb_checkpoints/
+
+# === Logs ===
+logs/
+*.log
+
+# === Model outputs ===
+models/outputs/*.json
+models/outputs/*.pt
+models/outputs/*.bin
+
+# === Data (heavy or raw) ===
+data/**/clips/
+data/**/cv-corpus-*.tar.gz
+
+# === Intermediate/Temporary Files ===
+*.tmp
+*.bak
+*.swp
+
+# === Results (optional: keep if needed for version control) ===
+# results/*.csv
+# results/*.png
+
+# === VS Code Settings (optional) ===
+.vscode/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db

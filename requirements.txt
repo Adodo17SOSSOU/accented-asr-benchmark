@@ -1,0 +1,11 @@
+torch
+transformers
+datasets
+torchaudio
+jiwer
+pandas
+librosa
+tqdm
+accelerate 
+audiomentations 
+matplotlib

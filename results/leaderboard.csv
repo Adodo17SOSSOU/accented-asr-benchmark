@@ -1,0 +1,3 @@
+model,WER,CER,num_samples
+whisper,0.2185,0.0785,31
+wav2vec2,0.3278,0.0913,31
